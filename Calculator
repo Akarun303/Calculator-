@@ -1,0 +1,53 @@
+print("Hello World")
+# Calculator 
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+print("Addition")
+print("Subtraction")
+print("Multiplication")
+print("Division")
+print("Exponent")
+print("Remainder")
+print("Floor Division")
+print("Modulus")
+print("Average")
+print("Percentage")
+print("Square")
+print("Cube")
+print("Square Root")
+print("Cube Root")
+user = input("Enter the operation: ")
+
+if user == "Addition":
+    print(int(num1) + int(num2))
+elif user == "Subtraction":
+    print(int(num1) - int(num2))
+elif user == "Multiplication":
+    print(int(num1) * int(num2))
+elif user == "Division":
+    print(int(num1) / int(num2))
+elif user == "Exponent":
+    print(int(num1) ** int(num2))
+elif user == "Remainder":
+    print(int(num1) % int(num2))
+elif user == "Floor Division":
+    print(int(num1) // int(num2))
+elif user == "Modulus":
+    print(int(num1) % int(num2))
+elif user == "Average":
+    print((int(num1) + int(num2)) / 2)
+elif user == "Percentage":
+    print((int(num1) / int(num2)) * 100)
+elif user == "Square":
+    print(int(num1) ** 2)
+elif user == "Cube":
+    print(int(num1) ** 3)
+elif user == "Square Root":
+    print(int(num1) ** 0.5)
+elif user == "Cube Root":
+    print(int(num1) ** (1/3))
+else:
+    print("Invalid Operation")
+             
+
+             
